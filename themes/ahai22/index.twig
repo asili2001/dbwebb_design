@@ -4,7 +4,14 @@
     {% include 'incl/nav.twig' %}
 
     <div class="main" role="main">
-        {{ content }}
+        <div class="text-and-image">
+            <div>
+                {{ content }}
+            </div>
+            <div>
+                <img src="{{ base_url }}/{{ pages["index"].meta.profilePic|url }}" alt="" />
+            </div>
+        </div>
     </div>
     
     {% include 'incl/footer.twig' %}

@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+a {
+    color: #eeeeee;
+}
+
 ol, ul {
     padding-left: 1.5em;
 }
@@ -15,6 +19,7 @@ ol, ul {
 
 html, body {
     height: 100%;
+    color: #eeeeee;
 }
 
 /* Placement */
@@ -22,10 +27,13 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-color: #141d25;
 }
 
 .main {
     flex: 1 0 auto;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .header, .footer {
@@ -37,12 +45,41 @@ body {
 .header, .site-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.header {
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
+/* text-and-image */
+
+.text-and-image {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    padding: 20px;
+}
+
+.text-and-image div:nth-child(2) {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.text-and-image div:nth-child(2) img{
+    width: 200px;
+}
 /* Title */
 
 .title, .logo {
     padding: 3em 3em 3em 0;
+}
+
+.logo img {
+    height: 100px;
+    filter: invert(1);
 }
 
 @media (max-width: 767px) {
@@ -58,7 +95,7 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: #d2d2d2;
 }
 
 .title p {
@@ -73,10 +110,6 @@ body {
     border-top: 1px solid #222;
 }
 
-.footer a {
-    color: #222;
-}
-
 .footer .social {
     font-size: 2rem;
 }
@@ -86,7 +119,6 @@ body {
 body {
     font-family: sans-serif;
     line-height: 1.5rem;
-    color: #444;
 }
 
 p, td, th, li, dd {
