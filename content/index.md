@@ -1,7 +1,7 @@
 ---
 Title: My portfolio.
 Description: This is our index page.
-profilePic: image/me.jpg
+txtPic: image/me.jpg
 ---
 
 Home page
