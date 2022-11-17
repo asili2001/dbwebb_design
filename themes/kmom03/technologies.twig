@@ -1,0 +1,35 @@
+{% include 'incl/header.twig' %}
+
+<body>
+
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+
+        {% if meta.Sidebar %}
+            <div class="technology">
+                <aside>
+                    <ul>
+                        {% for page in pages('technologies') if page.title and not page.hidden %}
+                            <li{% if page.id==current_page.id %} class="active" {% endif %}>
+                                <a href="{{ page.url }}">{{ page.title }}</a>
+                            </li>
+                        {% endfor %}
+                    <ul>
+                </aside>
+
+                <div class="content">
+                    {{content}}
+                </div>
+            </div>
+        {% else %}
+            <div class="technologies">
+            {{ content }}
+            </div>
+        {% endif %}
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
