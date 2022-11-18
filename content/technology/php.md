@@ -1,7 +1,7 @@
 ---
 Title: PHP
 Description: PHP Technology
-Template: technologies
+Template: technology
 Sidebar: true
 ---
 # PHP

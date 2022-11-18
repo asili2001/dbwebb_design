@@ -1,7 +1,7 @@
 ---
 Title: SQLITE
 Description: SQLITE Technology
-Template: technologies
+Template: technology
 Sidebar: true
 ---
 # SQLite

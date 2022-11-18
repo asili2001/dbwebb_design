@@ -1,7 +1,7 @@
 ---
 Title: GIT
 Description: GIT Technology
-Template: technologies
+Template: technology
 Sidebar: true
 ---
 # Git

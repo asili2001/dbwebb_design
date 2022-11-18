@@ -1,7 +1,7 @@
 ---
 Title: CSS
 Description: CSS Technology
-Template: technologies
+Template: technology
 Sidebar: true
 ---
 

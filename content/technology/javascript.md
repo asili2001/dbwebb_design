@@ -1,7 +1,7 @@
 ---
 Title: JAVASCRIPT
 Description: JAVASCRIPT Technology
-Template: technologies
+Template: technology
 Sidebar: true
 ---
 

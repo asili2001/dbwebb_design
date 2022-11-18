@@ -1,7 +1,7 @@
 ---
 Title: HTML
 Description: HTML Technology
-Template: technologies
+Template: technology
 Sidebar: true
 ---
 # HTML

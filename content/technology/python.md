@@ -1,7 +1,7 @@
 ---
 Title: PYTHON
 Description: PYTHON Technology
-Template: technologies
+Template: technology
 Sidebar: true
 ---
 # Python

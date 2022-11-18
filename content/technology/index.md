@@ -1,14 +1,14 @@
 ---
 Title: Technologies
 Description: This is my report page.
-Template: technologies
+Template: technology
 Sidebar: false
 ---
 Technologies
 ==========================
 
 <div class="tech-box html">
-    <a href="technologies/html">
+    <a href="technology/html">
         <div class="title-banner">
             <p>Html</p>
         </div>
@@ -20,7 +20,7 @@ Technologies
 
 
 <div class="tech-box css">
-    <a href="technologies/css">
+    <a href="technology/css">
         <div class="title-banner">
             <p>CSS</p>
         </div>
@@ -33,7 +33,7 @@ Technologies
 
 
 <div class="tech-box javascript">
-    <a href="technologies/javascript">
+    <a href="technology/javascript">
         <div class="title-banner">
             <p>JAVASCRIPT</p>
         </div>
@@ -45,7 +45,7 @@ Technologies
 
 
 <div class="tech-box php">
-    <a href="technologies/php">
+    <a href="technology/php">
         <div class="title-banner">
             <p>PHP</p>
         </div>
@@ -57,7 +57,7 @@ Technologies
 
 
 <div class="tech-box python">
-    <a href="technologies/python">
+    <a href="technology/python">
     <div class="title-banner">
         <p>PYTHON</p>
     </div>
@@ -68,7 +68,7 @@ Technologies
 
 
 <div class="tech-box git">
-    <a href="technologies/git">
+    <a href="technology/git">
         <div class="title-banner">
             <p>GIT</p>
         </div>
@@ -80,7 +80,7 @@ Technologies
 
 
 <div class="tech-box sqlite">
-    <a href="technologies/sqlite">
+    <a href="technology/sqlite">
         <div class="title-banner">
             <p>SQLITE</p>
         </div>
