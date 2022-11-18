@@ -1,37 +1,38 @@
 .technologies {
     display: grid;
     grid-template-areas:
-        "title title title"
-        "css html html"
-        "javascript javascript php"
-        "python python python"
-        "git sqlite sqlite";
+    'title title title'
+    'css html html'
+    'javascript javascript php'
+    'python python python'
+    'git sqlite sqlite';
     gap: 20px;
 
     @media (max-width: 600px) {
         grid-template-areas:
-        "title title title title"
-        "css css html html"
-        "javascript javascript php php"
-        "python python python python"
-        "git git sqlite sqlite";
+        'title title title title'
+        'css css html html'
+        'javascript javascript php php'
+        'python python python python'
+        'git git sqlite sqlite';
     }
     @media (max-width: 450px) {
         grid-template-areas:
-        "title title title"
-        "css css css"
-        "html html html"
-        "javascript javascript javascript"
-        "php php php"
-        "python python python"
-        "git git git"
-        "sqlite sqlite sqlite";
+        'title title title'
+        'css css css'
+        'html html html'
+        'javascript javascript javascript'
+        'php php php'
+        'python python python'
+        'git git git'
+        'sqlite sqlite sqlite';
     }
         
     >h1 {
         grid-area: title;
         text-align: center;
     }
+
     .tech-box {
         height: 200px;
         width: 100%;
@@ -60,23 +61,27 @@
             grid-area: html;
 
             .title-banner {
-                background-color: #E44D26;
+                background-color: #e44d26;
             }
         }
+
         &.css {
             grid-area: css;
+
             .title-banner {
                 background-color: #264de4;
             }
         }
+
         &.javascript {
             grid-area: javascript;
 
             .title-banner {
                 background-color: #f7df1e;
-                color:black;
+                color: #000;
             }
         }
+
         &.php {
             grid-area: php;
 
@@ -84,20 +89,26 @@
                 background-color: #7a86b8;
             }
         }
+
         &.python {
             grid-area: python;
+
             .title-banner {
                 background-color: #3776ab;
             }
         }
+
         &.git {
             grid-area: git;
+
             .title-banner {
                 background-color: #e84d31;
             }
         }
+
         &.sqlite {
             grid-area: sqlite;
+
             .title-banner {
                 background-color: #0f7bc8;
             }

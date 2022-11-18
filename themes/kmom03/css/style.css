@@ -6519,7 +6519,7 @@ pre code {
   grid-area: html;
 }
 .technologies .tech-box.html .title-banner {
-  background-color: #E44D26;
+  background-color: #e44d26;
 }
 .technologies .tech-box.css {
   grid-area: css;
@@ -6532,7 +6532,7 @@ pre code {
 }
 .technologies .tech-box.javascript .title-banner {
   background-color: #f7df1e;
-  color: black;
+  color: #000;
 }
 .technologies .tech-box.php {
   grid-area: php;
