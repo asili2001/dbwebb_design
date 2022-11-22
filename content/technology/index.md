@@ -13,7 +13,7 @@ Technologies
             <p>Html</p>
         </div>
         <div class="content">
-            <img src="%base_url%/assets/tech/html.jpg" alt="HTML">
+            <img src="%base_url%/image/tech/html.jpg?w=500" alt="HTML">
         </div>
     </a>
 </div>
@@ -25,7 +25,7 @@ Technologies
             <p>CSS</p>
         </div>
         <div class="content">
-            <img src="%base_url%/assets/tech/css.jpg" alt="CSS">
+            <img src="%base_url%/image/tech/css.jpg?w=500" alt="CSS">
         </div>
     </a>
 </div>
@@ -38,7 +38,7 @@ Technologies
             <p>JAVASCRIPT</p>
         </div>
         <div class="content">
-            <img src="%base_url%/assets/tech/javascript.jpg" alt="JAVASCRIPT">
+            <img src="%base_url%/image/tech/javascript.jpg?w=500" alt="JAVASCRIPT">
         </div>
     </a>
 </div>
@@ -50,7 +50,7 @@ Technologies
             <p>PHP</p>
         </div>
         <div class="content">
-            <img src="%base_url%/assets/tech/php.jpg" alt="PHP">
+            <img src="%base_url%/image/tech/php.jpg?w=500" alt="PHP">
         </div>
     </a>
 </div>
@@ -62,7 +62,7 @@ Technologies
         <p>PYTHON</p>
     </div>
     <div class="content">
-        <img src="%base_url%/assets/tech/python.jpg" alt="PYTHON">
+        <img src="%base_url%/image/tech/python.jpg?w=1000" alt="PYTHON">
     </div>
 </div>
 
@@ -73,7 +73,7 @@ Technologies
             <p>GIT</p>
         </div>
         <div class="content">
-            <img src="%base_url%/assets/tech/git.jpg" alt="GIT">
+            <img src="%base_url%/image/tech/git.jpg?w=500" alt="GIT">
         </div>
     </a>
 </div>
@@ -85,7 +85,7 @@ Technologies
             <p>SQLITE</p>
         </div>
         <div class="content">
-            <img src="%base_url%/assets/tech/sqlite.jpg" alt="SQLITE">
+            <img src="%base_url%/image/tech/sqlite.jpg?w=500" alt="SQLITE">
         </div>
     </a>
 </div>
