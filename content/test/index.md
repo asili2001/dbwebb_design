@@ -9,3 +9,15 @@
 <p class="worst-ever">
     Nästa hyss han gjorde var när han i grönsakssoppan dök på huvet ner og sen satt där stenhårt fast uti mor sins soppskål, ty hans öron var för stora, så det blev att fara till doktorn det med hast. Hujedamej, sånt barn han var, tror inte också ni, att den som blott en soppskål har vill ej ha gossar i?
 </p>
+
+<!-- C-Image
+=========
+<img src="%base_url%/image/movement.jpg?f=colorize,100,0,0,0">
+<img src="%base_url%/image/movement.jpg?f=negate">
+<img src="%base_url%/image/movement.jpg?f=edgedetect"> -->
+
+Laddningshastighet
+========================
+
+<img src="%base_url%/image/movement.jpg">
+<img src="%base_url%/image/movement.png">

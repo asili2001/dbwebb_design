@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+@import 'report';
+@import 'technology';
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+a {
+    color:$light-font-color;
+    text-decoration: none;
+}
+
+.nav a, .nav-toggle {
+    color: $light-font-color;
+}
+
+
+ol,
+ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html,
+body {
+    height: 100%;
+    color: $light-font-color;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg, $light-primary-color, $light-alternative-color);
+    background-attachment: fixed;
+    padding-top: 125px;
+}
+
+.main {
+    flex: 1 0 auto;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+
+    @media (max-width: 1000px) {
+        width: 100%;
+    }
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+/* Header */
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 767px) {
+        width: 100%;
+
+        h1 {
+            font-size: 1.5em;
+        }
+    }
+}
+
+.header {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px #000;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+/* text-and-image */
+
+.text-and-image {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    padding: 20px;
+
+    
+    div:nth-child(1) {
+        width: calc(100% - 200px);
+    }
+    
+    div:nth-child(2) {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+        
+        img {
+            width: 150px;
+        }
+    }
+
+    @media (max-width: 1000px) {
+        flex-direction: column;
+        align-items: center;
+
+        div:nth-child(1) {
+            width: 100%;
+        }
+    }
+}
+
+/* Title */
+
+.logo img {
+    height: 100px;
+    filter: invert(1);
+
+    @media (max-width: 767px) {
+        height: 50px;
+    }
+}
+
+.title * {
+    color:$light-font-color;
+}
+
+.title p {
+    font-style: italic;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid$light-font-color;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
+/* Typografy */
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5rem;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+/* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
+
+/* Code */
+
+code {
+    margin: 0 0.1em;
+    padding: 0.1em 0.2em;
+    border: 1px solid;
+    border-radius: 0.3em;
+    background: $light-alternative-color;
+    font-family: monospace;
+    font-size: 0.85rem;
+    line-height: 1.9824;
+}
+
+pre {
+    padding: 0 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: $light-alternative-color;
+}
+
+pre code {
+    margin: 0 0.1em;
+    padding: 0.1em 0.2em;
+    border: 1px solid $light-alternative-color;
+    border-radius: 0.3em;
+    background: $light-alternative-color;
+    font-family: monospace;
+    font-size: 0.85rem;
+    line-height: 1.9824;
+}
+
+/* Blockquote */
+
+blockquote {
+    font-style: italic;
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 0.5em solid #f5f5f5;
+}
