@@ -4,7 +4,7 @@ Description: Analysis.
 Template: technology
 Sidebar: false
 ---
-Technologies
+Analysis
 ==========================
 
 <div class="tech-box">

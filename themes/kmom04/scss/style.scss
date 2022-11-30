@@ -7,7 +7,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import 'variables-light';
 
 @import 'blockquotes';
 @import 'code';
@@ -23,12 +23,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 }
 
 a {
-    color:$light-font-color;
+    color:$font-color;
     text-decoration: none;
 }
 
 .nav a, .nav-toggle {
-    color: $light-font-color;
+    color: $font-color;
 }
 
 
@@ -44,7 +44,7 @@ ul {
 html,
 body {
     height: 100%;
-    color: $light-font-color;
+    color: $font-color;
 }
 
 /* Placement */
@@ -52,7 +52,7 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(45deg, $light-primary-color, $light-alternative-color);
+    background: linear-gradient(45deg, $primary-color, $alternative-color);
     background-attachment: fixed;
     padding-top: 125px;
 }
@@ -150,7 +150,7 @@ body {
 }
 
 .title * {
-    color:$light-font-color;
+    color:$font-color;
 }
 
 .title p {
@@ -162,7 +162,7 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid$light-font-color;
+    border-top: 1px solid$font-color;
     flex-direction: column;
     align-items: center;
 }
@@ -207,7 +207,7 @@ code {
     padding: 0.1em 0.2em;
     border: 1px solid;
     border-radius: 0.3em;
-    background: $light-alternative-color;
+    background: $alternative-color;
     font-family: monospace;
     font-size: 0.85rem;
     line-height: 1.9824;
@@ -217,15 +217,15 @@ pre {
     padding: 0 1em;
     border: 1px solid #ccc;
     border-radius: 0.3em;
-    background: $light-alternative-color;
+    background: $alternative-color;
 }
 
 pre code {
     margin: 0 0.1em;
     padding: 0.1em 0.2em;
-    border: 1px solid $light-alternative-color;
+    border: 1px solid $alternative-color;
     border-radius: 0.3em;
-    background: $light-alternative-color;
+    background: $alternative-color;
     font-family: monospace;
     font-size: 0.85rem;
     line-height: 1.9824;

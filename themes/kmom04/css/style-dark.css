@@ -6496,7 +6496,7 @@ pre code {
 .technologies .tech-box {
   height: 200px;
   width: 100%;
-  background: linear-gradient(45deg, #212121, rgba(22, 22, 22, 0.5607843137));
+  background: linear-gradient(45deg, #141d25, rgba(22, 22, 22, 0.5607843137));
   border-radius: 10px;
   position: relative;
   overflow: hidden;
@@ -6571,7 +6571,7 @@ pre code {
 }
 .technology aside {
   padding: 15px;
-  background: #2b92c0;
+  background: #3e6272;
 }
 .technology aside ul {
   padding: 0;

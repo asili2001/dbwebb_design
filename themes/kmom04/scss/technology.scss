@@ -36,7 +36,7 @@
     .tech-box {
         height: 200px;
         width: 100%;
-        background: linear-gradient(45deg, #212121, #1616168f);
+        background: linear-gradient(45deg, $alternative-color, #1616168f);
         border-radius: 10px;
         position: relative;
         overflow: hidden;
@@ -127,7 +127,7 @@
 
     aside {
         padding: 15px;
-        background: $light-primary-color;
+        background: $primary-color;
 
         ul {
             padding: 0;
