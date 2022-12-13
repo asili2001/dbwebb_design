@@ -23,11 +23,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 }
 
 a {
-    color:$font-color;
+    color: $font-color;
     text-decoration: none;
 }
 
-.nav a, .nav-toggle {
+.nav a,
+.nav-toggle {
     color: $font-color;
 }
 
@@ -150,7 +151,7 @@ body {
 }
 
 .title * {
-    color:$font-color;
+    color: $font-color;
 }
 
 .title p {

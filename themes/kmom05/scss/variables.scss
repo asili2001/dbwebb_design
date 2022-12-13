@@ -8,3 +8,8 @@ $alternative-color: #141d25;
 $light-font-color: #494949;
 $light-primary-color: #2b92c0 ;
 $light-alternative-color: #fff;
+
+
+$base-font-size: 1.2em;
+$base-line-height: 1.4;
+$magic-number: $base-font-size * $base-line-height;

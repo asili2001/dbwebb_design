@@ -19,5 +19,15 @@
 Laddningshastighet
 ========================
 
-<img src="%base_url%/image/movement.jpg">
-<img src="%base_url%/image/movement.png">
+<!-- <img src="%base_url%/image/movement.jpg">
+<img src="%base_url%/image/movement.png"> -->
+
+<picture>
+    <source media="(min-width: 1068px)" srcset="%base_url%/image/sheep.jpg">
+    <source media="(min-width: 376px)" srcset="%base_url%/image/sheep.jpg?w=300">
+    <img src="%base_url%/image/sheep.jpg?w=200" alt="sheep">
+</picture>
+
+<div class="embed-container">
+    <iframe src="https://www.youtube.com/embed/gCwjLPBqpa0" frameborder="0" allowfullscreen></iframe>
+</div>
