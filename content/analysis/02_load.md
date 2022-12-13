@@ -78,7 +78,8 @@ Vill man ha tillexempel index.html och main.css så blir det två requests till 
 
 Newsworthy.se använder .png bildformat på vissa bilder. .png brukar vara jättestora samt att de inte är det bästa på webben.<br>
 Det är bra att använda .jpg och ännu bättre att använda .webp format. Detta hjälper mycket med laddningstiden. <br><br>
- 
+
+<iframe src="%base_url%/sheets/load/index.html" height= "400" width= "100%"></iframe>
 
 Analys 
 =====================
