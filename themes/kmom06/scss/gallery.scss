@@ -1,0 +1,48 @@
+.gallery-main {
+    width: 1500px !important;
+
+    @media (max-width : 1500px) {
+        width: 100% !important;
+    }
+}
+
+.gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 450px);
+    gap: 10px;
+    justify-content: center;
+    color: #fff;
+
+    @media (max-width: 1410px) {
+        grid-template-columns: repeat(auto-fill, 350px);
+    }
+    @media (max-width: 1110px) {
+        grid-template-columns: repeat(auto-fill, 300px);
+    }
+
+    .media {
+        :hover {
+            transition: 0.5s ease all;
+            transform: scale(1.02);
+            box-shadow: 0 0 20px 5px #000;
+        }
+    }
+}
+
+.youtube-container {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1370px;
+    aspect-ratio: 15/5;
+    pointer-events: none;
+    margin: 0 auto;
+	
+	iframe {
+		/* Extend it beyond the viewport... */
+		width: 300%;
+		height: 100%;
+		/* ...and bring it back again */
+		margin-left: -100%;
+	}
+}

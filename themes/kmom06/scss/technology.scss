@@ -1,0 +1,153 @@
+.technologies {
+    display: grid;
+    grid-template-areas:
+    'title title title'
+    'css html html'
+    'javascript javascript php'
+    'python python python'
+    'git sqlite sqlite';
+    gap: 20px;
+
+    @media (max-width: 600px) {
+        grid-template-areas:
+        'title title title title'
+        'css css html html'
+        'javascript javascript php php'
+        'python python python python'
+        'git git sqlite sqlite';
+    }
+    @media (max-width: 450px) {
+        grid-template-areas:
+        'title title title'
+        'css css css'
+        'html html html'
+        'javascript javascript javascript'
+        'php php php'
+        'python python python'
+        'git git git'
+        'sqlite sqlite sqlite';
+    }
+        
+    >h1 {
+        grid-area: title;
+        text-align: center;
+    }
+
+    .tech-box {
+        height: 200px;
+        width: 100%;
+        background: linear-gradient(45deg, #212121, #1616168f);
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+
+        .title-banner {
+            height: 50px;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding-left: 10px;
+            display: flex;
+            align-items: center;
+
+            p {
+                margin: 0;
+            }
+        }
+
+        .content {
+            height: 100%;
+            width: 100%;
+        }
+
+        &.html {
+            grid-area: html;
+
+            .title-banner {
+                background-color: #e44d26;
+            }
+        }
+
+        &.css {
+            grid-area: css;
+
+            .title-banner {
+                background-color: #264de4;
+            }
+        }
+
+        &.javascript {
+            grid-area: javascript;
+
+            .title-banner {
+                background-color: #f7df1e;
+                color: #000;
+            }
+        }
+
+        &.php {
+            grid-area: php;
+
+            .title-banner {
+                background-color: #7a86b8;
+            }
+        }
+
+        &.python {
+            grid-area: python;
+
+            .title-banner {
+                background-color: #3776ab;
+            }
+        }
+
+        &.git {
+            grid-area: git;
+
+            .title-banner {
+                background-color: #e84d31;
+            }
+        }
+
+        &.sqlite {
+            grid-area: sqlite;
+
+            .title-banner {
+                background-color: #0f7bc8;
+            }
+        }
+    }
+}
+
+.technology {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
+
+    aside {
+        padding: 15px;
+        background: $light-primary-color;
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            font-size: 1.5em;
+            line-height: 1.5em;
+
+            @media (max-width: 800px) {
+                display: flex;
+                height: 100%;
+                width: 100%;
+                flex-wrap: wrap;
+                gap: 15px;
+                justify-content: center;
+            }
+        }
+    }
+}

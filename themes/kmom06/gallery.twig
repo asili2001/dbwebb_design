@@ -1,0 +1,20 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main gallery-main" role="main">
+        <h1 style="text-align: center;">Gallery</h1>
+        <div class="gallery">
+            {{ content }}
+        </div>
+        <div class="youtube-container">
+            <iframe src="https://www.youtube.com/embed/BHACKCNDMW8?autoplay=1&mute=1&loop=1&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
