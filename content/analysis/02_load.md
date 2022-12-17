@@ -43,6 +43,9 @@ Resultat
 Dn.se
 -----------
 
+![dn.se home page](%base_url%/image/dn.se.jpg?h=300)
+![dn.se PageSpeed Insights](%base_url%/image/dn.se.pagespeed.jpg?h=300)
+
 Dn.se har en ganska dålig prestandascore enligt Googles pagespeed verktyget.<br>
 Den har 62 till 64 av 100. Man kan höja upp resultatet genom att minska oanvända JavaScript.<br>
 Enligt pagespeed så finns det totalt 5 oanvända JavaScript filer. Detta påverkar laddningstiden samt bredbandet.<br>
@@ -59,12 +62,20 @@ Detta hjälper bland annat screen readers samt om bilderna inte laddas. Annars f
 Expressen.se 
 -----------
 
+![Expressen.se home page](%base_url%/image/expressen.se.jpg?h=300)
+![Expressen.se PageSpeed Insights](%base_url%/image/expressen.se.pagespeed.jpg?h=300)
+
+
 Expressens prestanda är ganska dålig enligt Googles pagespeed verktyget.<br>
 Den ligger på 55 till 59 av 100. Man kan förbättra resultatet genom att förminska(minify) JavaScript filerna för en mindre fil och script parse tid. <br>
 Annars följer expressen.se de generella rekommendationerna för sökmotoroptimering och tillgänglighet. <br><br>
 
 Newsworthy.se 
 -----------
+
+![Newsworthy.se home page](%base_url%/image/newsworthy.se.jpg?h=300)
+![Newsworthy.se PageSpeed Insights](%base_url%/image/newsworthy.pagespeed.jpg?h=300)
+
 
 Enligt Googles pagespeed verktyget så har Newsworthy.se ganska dålig prestandascore.<br>
 Den ligger på 55 av 100. Man kan förbättra resultatet genom att minska oanvända JavaScript filer.<br>
